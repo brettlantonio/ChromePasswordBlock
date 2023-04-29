@@ -1,4 +1,4 @@
-$user = get-ChildItem -Path C:\Users -exclude "adm-blantonio", "Administrator", "Locadmin", "Public", "Support"
+$user = get-ChildItem -Path C:\Users -exclude "ExampleUserOne", "Administrator", "Locadmin", "Public", "Support"
 $user = $user.Name 
 $beginningPath = "C:\Users\" 
 $combinedPath = $beginningPath + $user + "\" 
